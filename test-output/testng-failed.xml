@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="pass" value="9487733045"/>
+    <parameter name="user" value="saga10591@gmail.com"/>
+    <classes>
+      <class name="org.base.BrowserLaunchTestingFrames">
+        <methods>
+          <include name="tc02"/>
+          <include name="tc04"/>
+          <include name="tc01"/>
+          <include name="tc03"/>
+        </methods>
+      </class> <!-- org.base.BrowserLaunchTestingFrames -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="user" value="saga10591@gmail.com"></parameter>
+  <parameter name="pass" value="9487733045"></parameter>
+    <classes>
+      <class name="org.base.BrowserLaunchTestingFrames"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
